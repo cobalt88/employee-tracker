@@ -5,7 +5,7 @@ CREATE TABLE departments (
   id INTEGER AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(60) NOT NULL,
   description TEXT 
-)
+);
 
 CREATE TABLE managers (
   id INTEGER AUTO AUTO_INCREMENT,
@@ -13,7 +13,7 @@ CREATE TABLE managers (
   last_name VARCHAR(60) NOT NULL,
   title VARCHAR(60) NOT NULL,
   department_id INTEGER
-)
+);
 
 CREATE TABLE employees (
   id INTEGER AUTO_INCREMENT PRIMARY KEY,
@@ -21,6 +21,6 @@ CREATE TABLE employees (
   last_name VARCHAR(60) NOT NULL,
   title VARCHAR(100) NOT NULL,
   department_id INTEGER,
-  direct_manager_id INTEGER NOT NULL,
-  salary INTEGER(100000000, 2) NOT NULL
-)
+  salary INTEGER(100000000, 2) NOT NULL,
+  direct_manager_id INTEGER NOT NULL
+);
