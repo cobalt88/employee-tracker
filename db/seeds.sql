@@ -11,3 +11,7 @@ VALUES
   ("Jack", "O'Lantern", "Priciple Engineer", 1, 275000, 1),
   ("Penelope", "Valentine", "Senior Engineer", 1, 202000, 1),
   ("Locke", "Lamora", "Senior Engineer", 1, 197000, 1 )
+
+  INSERT INTO managers (first_name, last_name, title, department_id)
+  VALUES 
+    ();
