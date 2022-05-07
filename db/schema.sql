@@ -12,7 +12,7 @@ CREATE TABLE managers (
   first_name VARCHAR(60) NOT NULL,
   last_name VARCHAR(60) NOT NULL,
   title VARCHAR(60) NOT NULL,
-  department_id INTEGER NOT NULL
+  department_id INTEGER
 )
 
 CREATE TABLE employees (
@@ -22,5 +22,5 @@ CREATE TABLE employees (
   title VARCHAR(100) NOT NULL,
   department_id INTEGER,
   direct_manager_id INTEGER NOT NULL,
-
+  salary INTEGER(100000000, 2) NOT NULL
 )
